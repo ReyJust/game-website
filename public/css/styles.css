@@ -1,0 +1,215 @@
+/* HTML ELEMENT SELECTORS */
+body::-webkit-scrollbar {
+  /* Layout */
+  /* Hide scroll bar */
+  display: none;
+}
+
+section {
+  /* Layout */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+footer {
+  /* Layout */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+hr {
+  /* Layout */
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  /* Style */
+  height: 5px !important;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+/* CLASS SELECTORS */
+.signup {
+  /* Layout */
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  /* Style */
+  background-color: rgba(0, 0, 0, 0.80);
+  border-radius: 5px; 
+}
+
+.achievement-item {
+  /* Layout */
+  margin: 2rem;
+}
+
+.achievement-img {
+  /* Layout */
+  width: 50px;
+  height: 50px;
+
+  /* Style */
+  background-color: white;
+}
+
+.divider-icon {
+  /* Layout */
+ margin-left: -10px;
+ margin-right: -10px;
+}
+.navbar-custom {
+
+
+  /* Style */
+  background-color: black;
+  font-size: 18px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bolder;
+}
+
+  #mainNav {
+      /* Layout */
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.8rem !important;
+    transition: font-size 0.5s;
+  }
+
+
+.nav-link {
+  /* Layout */
+  color: white;
+}
+
+.nav-title {
+  /* Style */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  /* Style */
+  color: #6610f2;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  /* Style */
+  color: #6610f2;
+}
+
+.navbar-brand-custom {
+  /* Style */
+  font-size: 1.8em !important;
+
+  transition: font-size 0.3s;
+}
+
+.section-indigo {
+  margin-right: -15px;
+  margin-left: -15px;
+
+  padding-right: 24px;
+  padding-left: 24px;
+
+  /* Style */
+  background-color: #6610f2;
+}
+
+.section-black {
+  margin-right: -15px;
+  margin-left: -15px;
+
+  padding-right: 24px;
+  padding-left: 24px;
+  /* Style */
+  background-color: black;
+}
+
+.copyright {
+  /* Layout */
+  line-height: 0;
+
+  /* Style */
+  background-color: black;
+}
+
+.title {
+  /* Style */
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+
+.image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+.avatar {
+  /* Layout */
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+
+.image-list-item {
+  display: block;
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(32, 32, 32, 0.596);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.icon{
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#slogan {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+}
+.achievement-not-done {
+  opacity: 0;
+}
+
+.game {
+  /* Style */
+  background-color: white;
+
+  margin: auto;
+}
+.player {
+  position: relative;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}

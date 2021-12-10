@@ -1,0 +1,19 @@
+{
+  "name": "game-website",
+  "version": "1.0.0",
+  "description": "Coursework 1 For CST2560 - Gaming Website",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ReyJust@bitbucket.org/reyjust/game-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/reyjust/game-website/issues"
+  },
+  "homepage": "https://bitbucket.org/reyjust/game-website#readme"
+}
